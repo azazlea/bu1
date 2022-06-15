@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>비망우림(備忘雨林)로그인</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css_2/style.css">
+	<style>
+		body{background-color: #0E1926;}
+		
+		.container {
+	width: 100%;
+	max-width: 1480px;
+	padding: 0 20px;
+	margin: auto;
+	position: relative;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 3;
+}
+
+header h1 {
+	position: relative;
+	height: 40px;
+	margin:0;
+	float: left;
+	z-index: 3;
+}
+header h1 img{
+	display: block;
+	position: relative;
+	top:10px;
+}
+
+a {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.main-navigation {
+	margin-right: 20px;
+	float: right;
+}
+
+.main-navigation a {
+	color: rgb(255, 255, 255);
+	margin-left: 20px;
+}
+
+.main-navigation a.active {
+	font-weight: bold;
+	border-bottom: 2px solid #004fff;
+}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1><a href="#"><img src="assets/logo.png"  style="margin-left: 20px;"alt=""></a></h1>
+			<nav class="main-navigation">
+				<a href="index.html">홈</a>
+				<a href="index_1.html">스토리</a>
+				
+				<a href="index_2.html">로그인</a>
+				<a href="index_8.html">마이페이지</a>
+				<a href="index_9.html">후기</a>
+
+			</nav>
+			
+		</div>
+	</header>
+	<div class="bg"></div>
+	<form class="login-form" action="">
+		<h1>로그인</h1>
+		<p>신규 사용자이신가요? <a href="#">계정 만들기</a></p>
+		<label for="useremail">이메일 주소
+			<input type="email" id="useremail" placeholder="이메일 주소를 입력해주세요.">
+		</label>
+		<input class="btn-submit" href="index_1.html" type="submit" value="계속">
+
+		<div class="divider">
+			<hr><span>또는</span>
+		</div>
+
+		<button class="btn-google">
+			<i  class="icon icon-google"></i>Google로 계속
+		</button>
+
+		<button class="btn-facebook">
+			<i class="icon icon-facebook"></i>Facebook로 계속
+		</button>
+
+	
+
+	</form>
+</body>
+</html>
